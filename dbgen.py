@@ -23,7 +23,7 @@ def build_composition(conn):
     df['desc'] = df['desc'].str.replace(',', ', ').str.lower()
     df = pd.melt(df, id_vars=['item_id', 'desc'])
     df = df.rename(index=str, columns={'variable': 'component'})
-    df.to_sql('composition', conn, if_exists='replace')
+    df.to_sql('composition', conn, if_exists='replace', index=False)
 
 def build_units(conn):
     """Create mapping table from columns to units of measurement"""
