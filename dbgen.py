@@ -56,4 +56,4 @@ if __name__ == '__main__':
     build_units(conn)
     print('Building conversion table...')
     build_conversion(conn)
-    print('Done! Database created successfully.')
+    print('Done! Database created successfully as usda.db.')
