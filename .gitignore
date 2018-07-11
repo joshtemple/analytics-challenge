@@ -1,3 +1,5 @@
 *.db
 *.pyc
 DS_Store
+solutions.ipynb
+.ipynb_checkpoints/
