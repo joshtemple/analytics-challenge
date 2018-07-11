@@ -10,3 +10,6 @@ The `composition` table is formatted as a series of nutritional measurements:
 - `value`: The value of the measurement
 
 **The measurements are in different units**, depending on the component being measured. The `units` table maps each component to its unit of measurement. The `conversion` table maps each unit of measurement to a decmial conversion factor that converts values of each given unit of measurement to grams.
+
+### Getting started
+Once you've cloned the repo, run the Python script **dbgen.py**, which will create and populate the SQLite database, usda.db, to be used for this analysis.
