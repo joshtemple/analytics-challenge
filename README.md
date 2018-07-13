@@ -12,7 +12,7 @@ The `composition` table is formatted as a series of nutritional measurements:
 **The measurements are in different units**, depending on the component being measured. The `units` table maps each component to its unit of measurement. The `conversion` table maps each unit of measurement to a decimal conversion factor that converts values of each given unit of measurement to grams.
 
 ### Setting up your development environment
-Anaconda is a Python distribution that contains a collection of pre-installed, helpful libraries for data analysis. If you don't already have Python installed on your machine, you can follow the instructions [here](https://conda.io/docs/user-guide/install/index.html). If you do already have Python or Anaconda installed, make sure you have the following packages installed and up-to-date: `jupyter`, `pandas`, `sqlite3`.
+Anaconda is a Python distribution that contains a collection of pre-installed, helpful libraries for data analysis. If you don't already have Python installed on your machine, you can follow the instructions [here](https://conda.io/docs/user-guide/install/index.html). If you do already have Python 3.4+ or Anaconda installed, make sure you have the following packages installed and up-to-date: `jupyter`, `pandas`, `sqlite3`.
 
 Finally, clone this repo onto your computer.
 
