@@ -2,5 +2,6 @@
 *.pyc
 DS_Store
 solutions.ipynb
-solutions.json
+*.json
+submissions/
 .ipynb_checkpoints/
